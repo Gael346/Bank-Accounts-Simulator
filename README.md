@@ -9,20 +9,22 @@ The goal of this project was to learn more about memory and file management in C
 The problems I encountered were that memory management in C is somewhat complicated due to the potential for memory leaks and overflows, but fortunately, I was able to overcome them.
 
 # Clone and Run
-
-Clone the repository:
-HTTPS:
+### HTTPS:
+```bash
 git clone https://github.com/:Gael346/Bank-Accounts-Simulator.git
-
-Or SSH:
+```
+### SSH:
+```bash
 git clone git@github.com:Gael346/Bank-Accounts-Simulator.git
+```
 
-Enter the folder and run:
-cd Bank-Accounts-Simulator
-
-# For C projects
-gcc src/main.c -o app
-./app
+### Compile and Run
+```bash
+gcc bank.c -o bank
+```
+```bash
+./bank
+```
 
 # Features 
 - Create Account
